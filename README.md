@@ -26,8 +26,16 @@ performed on the client device inside the browser.
 2. The user connects to the Cardputer via Wi-Fi
 3. A web interface is loaded in the browser
 4. The user selects a game from the available ROM list
-5. The selected ROM is transferred to the browser
+5. The selected ROM and the emulator files are transferred to the browser
 6. The emulator runs **entirely on the client device**
+
+---
+
+## Limitations
+
+- Performance depends on the client device
+- Input latency may vary by browser
+- Large ROMs may load slowly over Wi-Fi
 
 ---
 
@@ -47,21 +55,27 @@ distributed through this repository.
 
 ## Setup
 
-1. Prepare your legally obtained NES/SNES ROM files
-2. Add them to the ESP32 filesystem (SD:\ESP32EJS\roms\)
-3. Add your WiFi Credentials in the creds.txt file (SD:\ESP32EJS\creds.txt)
-4. Flash the firmware
-5. Power on the Cardputer
-6. Open the device’s IP address in your browser
-7. Select a ROM from the web interface and play
+| Step | Describtion | Image |
+|------|-------------|-------|
+| 1. | Copy the ESP32EJS folder into your Cardputer's SD root | |
+| 2. | Prepare your legally obtained NES/SNES ROM files and add them to the ESP32 filesystem (SD:\ESP32EJS\roms\)| <img src="Images/roms.png" width="500"> |
+| 3. | Add your WiFi Credentials in the creds.txt file (SD:\ESP32EJS\creds.txt)<br>The AP credentials are used in Access Point Mode (AP-MODE)| <img src="Images/CredentialFile.png" width="500"> |
+| 4. | Flash the .bin file from the Firmware folder<br>There is also a .ino file under "Firmware/ArduinoIDE/ESP32EJS/" if you want to check out the code | |
+| 5. | Turn on the Cardputer<br>For AP-MODE press the G0 button when its prompted on the Cardputer| |
+| 6. | Open the device’s IP address in your browser and select a ROM from the web interface | <img src="Images/SelectingROM.png" width="500"> |
+| 7. | The selected ROM will now be executed by EmulatorJS<br>Have fun playing! | <img src="Images/Playing.png" width="500"> |
 
+- The Cardputer's screen will go blank after 60s. To turn it back on press G0.
 ---
 
-## Limitations
+## Custom Favicon
 
-- Performance depends on the client device
-- Input latency may vary by browser
-- Large ROMs may load slowly over Wi-Fi
+This project does not include a favicon by default.
+
+If you want, you can add your own `favicon.ico` in the ESP32EJS folder (the same folder where `index.html` is).
+Browsers will automatically use it when loading the page.
+
+<img src="Images/FilesInESP32EJS.png" width="800">
 
 ---
 
