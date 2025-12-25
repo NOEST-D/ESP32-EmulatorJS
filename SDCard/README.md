@@ -1,1 +1,1 @@
-**Copy the ESP32EJS Folder onto your M5 Cardputers SD root**
+**Copy the ESP32EJS Folder onto your Cardputer's SD root**
