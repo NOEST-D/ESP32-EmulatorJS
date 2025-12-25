@@ -56,16 +56,16 @@ distributed through this repository.
 ## Setup
 
 | Step | Describtion | Image |
-|------|-------------|-------|
-| 1. | Copy the ESP32EJS folder into your Cardputer's SD root | <img src="Images/ESP32EJSFolder.png" width="500"> |
-| 2. | Prepare your legally obtained NES/SNES ROM files and add them to the ESP32 filesystem (SD:\ESP32EJS\roms\)| <img src="Images/roms.png" width="500"> |
-| 3. | Add your WiFi Credentials in the creds.txt file (SD:\ESP32EJS\creds.txt)<br>The AP credentials are used in Access Point Mode (AP-MODE)| <img src="Images/CredentialFile.png" width="500"> |
-| 4. | Flash the .bin file from the Firmware folder<br>There is also a .ino file under "Firmware/ArduinoIDE/ESP32EJS/" if you want to check out the code | <img src="Images/FirmwareFile.png" width="500"> |
-| 5. | Turn on the Cardputer<br>For AP-MODE press the G0 button when its prompted on the Cardputer| |
-| 6. | Open the device’s IP address in your browser and select a ROM from the web interface | <img src="Images/SelectingROM.png" width="500"> |
-| 7. | The selected ROM will now be executed by EmulatorJS<br>Have fun playing! | <img src="Images/Playing.png" width="500"> |
+|:----:|-------------|-------|
+| 1. | <ul><li>Copy the ESP32EJS folder into your Cardputer's SD root</li></ul> | <img src="Images/ESP32EJSFolder.png" width="500"> |
+| 2. | <ul><li>Prepare your legally obtained NES/SNES ROM files and add them to the ESP32 filesystem (SD:\ESP32EJS\roms\)</li></ul> | <img src="Images/roms.png" width="500"> |
+| 3. | <ul><li>Add your WiFi Credentials in the creds.txt file (SD:\ESP32EJS\creds.txt)</li><li>The AP credentials are used in Access Point Mode (AP-MODE)</li></ul> | <img src="Images/CredentialFile.png" width="500"> |
+| 4. | <ul><li>Flash the .bin file from the Firmware folder</li><li>There is also a .ino file under "Firmware/ArduinoIDE/ESP32EJS/" if you want to check out the code</li></ul> | <img src="Images/FirmwareFile.png" width="500"> |
+| 5. | <ul><li>Turn on the Cardputer</li><li>For AP-MODE press the G0 button when its prompted on the Cardputer</li></ul> | |
+| 6. | <ul><li>Open the device’s IP address in your browser and select a ROM from the web interface</li></ul> | <img src="Images/SelectingROM.png" width="500"> |
+| 7. | <ul><li>The selected ROM will now be executed by EmulatorJS</li></ul><br><div align="center">**Have fun playing!**</div> | <img src="Images/Playing.png" width="500"> |
 
-- The Cardputer's screen will go blank after 60s. To turn it back on press G0.
+- The Cardputer’s screen will turn off after 60 seconds to save power. Press G0 to turn it back on.
 ---
 
 ## Custom Favicon
