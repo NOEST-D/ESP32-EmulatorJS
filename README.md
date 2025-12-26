@@ -75,7 +75,7 @@ This project does not include a favicon by default.
 If you want, you can add your own `favicon.ico` in the ESP32EJS folder (the same folder where `index.html` is).
 Browsers will automatically use it when loading the page.
 
-<img src="Images/FilesInESP32EJS.png" width="800">
+<img src="Images/FilesInESP32EJS.png" width="80%">
 
 ---
 
