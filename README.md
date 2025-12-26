@@ -59,7 +59,7 @@ distributed through this repository.
 |:----:|-------------|-------|
 | 1. | <ul><li>Download the ESP32EJS.zip from the latest release and extract it into your Cardputer's SD root</li></ul> | <img src="Images/ESP32EJSFolder.png" width="100%"> |
 | 2. | <ul><li>Prepare your legally obtained NES/SNES ROM files and add them to the ESP32 filesystem (SD:\ESP32EJS\roms\)</li></ul> | <img src="Images/roms.png" width="100%"> |
-| 3. | <ul><li>Add your WiFi Credentials in the creds.txt file (SD:\ESP32EJS\creds.txt)</li><li>The AP credentials are used in Access Point Mode (AP-MODE) in wich the Cardputer hosts its own WiFi</li><li>AP_PASS has to be at least 8 characters long</li></ul> | <img src="Images/CredentialFile.png" width="100%"> |
+| 3. | <ul><li>Add your WiFi Credentials in the creds.txt file (SD:\ESP32EJS\creds.txt)</li><li>The AP credentials are used in Access Point Mode (AP-MODE) in wich the Cardputer hosts its own Wi-Fi</li><li>AP_PASS has to be at least 8 characters long</li></ul> | <img src="Images/CredentialFile.png" width="100%"> |
 | 4. | <ul><li>Flash the .bin file from the latest release</li><li>There is also a .ino file under "Firmware/ArduinoIDE/ESP32EJS/" if you want to check out the code</li></ul> | <img src="Images/FirmwareFile.png" width="100%"> |
 | 5. | <ul><li>Turn on the Cardputer</li><li>For AP-MODE press the G0 button when its prompted on the Cardputer</li></ul> | No Image |
 | 6. | <ul><li>Open the device’s IP address in your browser and select a ROM from the web interface</li></ul> | <img src="Images/SelectingROM.png" width="100%"> |
