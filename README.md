@@ -1,5 +1,3 @@
-<meta name="google-site-verification" content="Imp6O5seryf1BfTqIgnwZ2R1ILiDxa0sG72nOZqd6as" />
-
 # ESP32-EmulatorJS
 
 A web-based NES and SNES emulator served by the **M5 Cardputer (ESP32)**,  
