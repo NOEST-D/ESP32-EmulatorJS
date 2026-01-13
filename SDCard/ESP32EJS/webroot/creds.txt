@@ -1,0 +1,5 @@
+STA_SSID=YourRouterSSID
+STA_PASS=YourRouterPASSWORD
+AP_SSID=ESP32-EmulatorJS
+AP_PASS=emulatorjs
+AP_CH=6
