@@ -10,13 +10,13 @@ performed on the client device inside the browser.
 
 ## Features
 
-- 📟 Designed for the M5 Cardputer (ESP32)
-- 🌐 Browser-based NES and SNES emulation
-- 🧠 Emulation runs locally in the browser
-- 🎮 ROM selection via web UI
-- 📦 ROMs stored on the ESP32 (SD)
-- ⚡ No emulation performed on the ESP32 itself
-- 📱 Works on desktop and mobile browsers
+- Designed for the M5 Cardputer (ESP32)
+- Browser-based NES and SNES emulation
+- Emulation runs locally in the browser
+- ROM selection via web UI
+- ROMs stored on the ESP32 (SD)
+- No emulation performed on the ESP32 itself
+- Works on desktop and mobile browsers
 
 ---
 
