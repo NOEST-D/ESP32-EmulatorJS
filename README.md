@@ -56,7 +56,7 @@ distributed through this repository.
 ## Setup
 
 | Step | Describtion | Image |
-|:----:|-------------|-------|
+|:---:|:---|:---:|
 | 1. | <ul><li>Download ESP32EJS.zip from the latest release and extract it into your Cardputer's SD root</li></ul> | <img src="Images/DirectoryList.png" width="100%"> |
 | 2. | <ul><li>Prepare your legally obtained NES/SNES ROM files and add them to the ESP32 filesystem (SD:\ESP32EJS\webroot\roms\)</li></ul> | <img src="Images/Roms.png" width="100%"> |
 | 3. | <ul><li>Add your WiFi Credentials in the creds.txt file (SD:\ESP32EJS\creds.txt)</li><li>The AP credentials are used in Access Point Mode (AP-MODE) in wich the Cardputer hosts its own Wi-Fi</li><li>AP_PASS has to be at least 8 characters long</li></ul> | <img src="Images/CredentialFile.png" width="100%"> |
